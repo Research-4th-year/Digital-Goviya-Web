@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --deep: #05301c;
+  --forest: #0a4a2b;
+  --field: #14683b;
+  --shoot: #a3d65c;
+  --gold: #f2b01e;
+  --grain: #ffd25a;
+  --mist: #f3f7ee;
+  --ink: #10231a;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+
+.paddy-app {
+  font-family: 'Poppins', system-ui, sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+.font-display {
+  font-family: 'Fraunces', Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+:focus-visible { outline: 3px solid var(--grain); outline-offset: 3px; border-radius: 6px; }
+
+/* ---------- Hero backdrop ---------- */
+.hero-bg {
+  background:
+    radial-gradient(ellipse at 80% 20%, rgba(20, 104, 59, 0.55), transparent 55%),
+    linear-gradient(180deg, #05301c 0%, #07391f 60%, #0a4a2b 100%);
+}
+.sun-glow {
+  background: radial-gradient(circle at center, #ffd25a 0%, #f2b01e 32%, rgba(242, 176, 30, 0) 68%);
+  animation: sunpulse 7s ease-in-out infinite;
+}
+
+/* ---------- Paddy field animation ---------- */
+.stalk {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: sway var(--d, 5s) ease-in-out var(--delay, 0s) infinite;
+}
+@keyframes sway {
+  0%, 100% { transform: rotate(-2.2deg); }
+  50% { transform: rotate(2.8deg); }
+}
+
+.grain {
+  position: absolute;
+  bottom: 8%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fff1b8, #f2b01e 60%, #c98a00);
+  opacity: 0;
+  animation: drift var(--dur, 16s) linear var(--delay, 0s) infinite;
+}
+@keyframes drift {
+  0% { transform: translate3d(0, 0, 0) rotate(0deg); opacity: 0; }
+  10% { opacity: 0.85; }
+  100% { transform: translate3d(var(--dx, 60px), -75vh, 0) rotate(300deg); opacity: 0; }
+}
+
+@keyframes sunpulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.07); opacity: 1; }
+}
+.floaty { animation: floaty 6s ease-in-out infinite; }
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .stalk, .grain, .sun-glow, .floaty, .animate-ping { animation: none !important; }
+}
