@@ -236,7 +236,10 @@ export const DOWNLOADS = [
   {
     group: 'Proposals',
     items: [
-      { title: 'Project Proposal', file: 'downloads/proposals/project-proposal.pdf', available: false },
+      { title: 'AI-Driven Paddy Price Forecasting Project Proposal', file: 'downloads/proposals/R26_SE_007_IT22102096_RansaraNS.pdf', available: true },
+      { title: 'IOT Based Digital Dashboard for Paddy Farming Project Proposal', file: 'downloads/proposals/R26_SE_007_IT22294784_KumarasinghaPAND.pdf', available: true },
+      { title: 'AI-Powered Farmer-Miller Marketplace Project Proposal', file: 'downloads/proposals/R26_SE_007_IT22147950_Chamudi.K.S.I.pdf', available: true },
+      { title: 'Secure, Disaster-Aware Warehouse Coordination Project Proposal', file: 'downloads/proposals/R26 SE 007_IT22372444_SenarathneS.M.B.V.B .pdf', available: true },
       { title: 'Topic Assessment', file: 'downloads/proposals/TAF_R26-SE-007.pdf', available: true },
     ],
   },
@@ -258,7 +261,7 @@ export const DOWNLOADS = [
   },
   {
     group: 'Research Paper',
-    items: [{ title: 'Research Paper', file: 'downloads/papers/research-paper.pdf', available: false }],
+    items: [{ title: 'Research Paper', file: 'downloads/papers/Privacy_Preserving_Warehouse_Coordination_System_for_National_Paddy_Distribution_Using_Zero_Knowledge_Proofs_Graph_Attention_Networks_and_Permissioned_Blockchain.pdf', available: true }],
   },
 ];
 
