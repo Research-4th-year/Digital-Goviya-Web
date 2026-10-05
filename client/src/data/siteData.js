@@ -248,7 +248,7 @@ export const DOWNLOADS = [
     items: [
       { title: 'Proposal Presentation', file: 'downloads/presentations/Proposal Presentation.pptx', available: true },
       { title: 'Progress Presentation 1', file: 'downloads/presentations/PP1 Presentation.pptx', available: true },
-      { title: 'Progress Presentation 2', file: 'downloads/presentations/progress-presentation-2.pptx', available: false },
+      { title: 'Progress Presentation 2', file: 'downloads/presentations/PP2 Presentation.pptx', available: false },
       { title: 'Final Presentation', file: 'downloads/presentations/final-presentation.pptx', available: false },
     ],
   },
