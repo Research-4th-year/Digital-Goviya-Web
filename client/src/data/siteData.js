@@ -237,7 +237,7 @@ export const DOWNLOADS = [
     group: 'Proposals',
     items: [
       { title: 'Project Proposal', file: 'downloads/proposals/project-proposal.pdf', available: false },
-      { title: 'Topic Assessment', file: 'downloads/proposals/topic-assessment.pdf', available: false },
+      { title: 'Topic Assessment', file: 'downloads/proposals/TAF_R26-SE-007.pdf', available: true },
     ],
   },
   {
@@ -288,7 +288,5 @@ export const CONTACT = {
   phoneLink: '+94716853350',
   location: 'Sliit, Malabe, Sri Lanka.',
   mapLink: 'https://www.google.com/maps/search/?api=1&query=SLIIT+Malabe+Sri+Lanka',
-  // Optional: paste a Formspree URL (https://formspree.io/f/xxxxxxx) to send messages straight to your inbox.
-  // Left empty, the form opens the visitor's email app with the message filled in.
   formEndpoint: '',
 };
