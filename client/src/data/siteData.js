@@ -269,7 +269,7 @@ export const ABOUT_TEXT =
 // Photos go in  public/assets/team/  (file names below). Use .jpg, or change the extension here.
 export const SUPERVISORS = [
   { name: 'Dr. Mahima Weerasinghe', role: 'Supervisor', email: 'mahima.w@sliit.lk', linkedin: 'https://www.linkedin.com/in/mahimaweerasinghe/', photo: 'assets/team/sup-mahima.png' },
-  { name: 'Mr. Eishan Weerasinghe', role: 'Co-Supervisor', email: 'eishan.w@sliit.lk', linkedin: 'https://www.linkedin.com/in/eishan-weerasinghe-08a2b8199/', photo: 'assets/team/co-sup-eishan.png' },
+  { name: 'Mr. Eishan Weerasinghe', role: 'Co-Supervisor', email: 'eishan.w@sliit.lk', linkedin: 'https://www.linkedin.com/in/eishan-weerasinghe-08a2b8199/', photo: 'assets/team/co-sup-eishan.jpeg' },
   { name: 'Mr. Suranga Senanayake', role: 'External Supervisor', email: 'suranga@gmail.com', linkedin: '', photo: 'assets/team/ex-sup-suranga.png' },
 ];
 
