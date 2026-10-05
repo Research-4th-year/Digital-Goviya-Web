@@ -275,9 +275,9 @@ export const SUPERVISORS = [
 
 export const TEAM = [
   { name: 'Ransara N.S.', role: 'Group Leader', leader: true, email: 'sasinransara@gmail.com', linkedin: 'https://www.linkedin.com/in/sasin-ransara/', photo: 'assets/team/sasin.png' },
-  { name: 'Kumarasingha P.A.N.D.', role: 'Team Member', email: 'neranda@gmail.com', linkedin: 'https://www.linkedin.com/in/neranda-dilhara-kumarasingha-2433a4257/', photo: 'assets/team/neranda.png' },
-  { name: 'Chamudi K. S. I.', role: 'Team Member', email: 'ishara@gmail.com', linkedin: 'https://www.linkedin.com/in/ishara-chamudi-a4796a2a8/', photo: 'assets/team/ishara.png' },
-  { name: 'Senarathne S.M.B.V.B.', role: 'Team Member', email: 'buwaneka@gmail.com', linkedin: 'https://www.linkedin.com/in/buwaneka-vishwajith-645378206/', photo: 'assets/team/buwaneka.png' },
+  { name: 'Kumarasingha P.A.N.D.', role: 'Team Member', email: 'nerandadilhara@gmail.com', linkedin: 'https://www.linkedin.com/in/neranda-dilhara-kumarasingha-2433a4257/', photo: 'assets/team/neranda.png' },
+  { name: 'Chamudi K. S. I.', role: 'Team Member', email: 'isharachamudi17@gmail.com', linkedin: 'https://www.linkedin.com/in/ishara-chamudi-a4796a2a8/', photo: 'assets/team/ishara.png' },
+  { name: 'Senarathne S.M.B.V.B.', role: 'Team Member', email: 'buwaneka10000@gmail.com', linkedin: 'https://www.linkedin.com/in/buwaneka-vishwajith-645378206/', photo: 'assets/team/buwaneka.png' },
 ];
 
 /* ------------------------------ CONTACT ------------------------------ */
