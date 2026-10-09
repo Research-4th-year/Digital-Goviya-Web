@@ -249,7 +249,7 @@ export const DOWNLOADS = [
       { title: 'Proposal Presentation', file: 'downloads/presentations/Proposal Presentation.pptx', available: true },
       { title: 'Progress Presentation 1', file: 'downloads/presentations/PP1 Presentation.pptx', available: true },
       { title: 'Progress Presentation 2', file: 'downloads/presentations/PP2 Presentation.pptx', available: true },
-      { title: 'Final Presentation', file: 'downloads/presentations/final-presentation.pptx', available: false },
+      { title: 'Final Presentation', file: 'downloads/presentations/PP Final.pptx', available: true },
     ],
   },
   {
@@ -276,7 +276,7 @@ export const ABOUT_TEXT =
 export const SUPERVISORS = [
   { name: 'Dr. Mahima Weerasinghe', role: 'Supervisor', email: 'mahima.w@sliit.lk', linkedin: 'https://www.linkedin.com/in/mahimaweerasinghe/', photo: 'assets/team/sup-mahima.png' },
   { name: 'Mr. Eishan Weerasinghe', role: 'Co-Supervisor', email: 'eishan.w@sliit.lk', linkedin: 'https://www.linkedin.com/in/eishan-weerasinghe-08a2b8199/', photo: 'assets/team/co-sup-eishan.jpeg' },
-  { name: 'Mr. Suranga Senanayake', role: 'External Supervisor', email: 'suranga@gmail.com', linkedin: '', photo: 'assets/team/ex-sup-suranga.png' },
+  { name: 'Mr. Suranga Senanayake', role: 'External Supervisor', email: 'surangasenanayake@pmb.gov.lk', linkedin: '', photo: 'assets/team/ex-sup-suranga.png' },
 ];
 
 export const TEAM = [
