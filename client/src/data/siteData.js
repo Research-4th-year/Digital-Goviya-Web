@@ -255,8 +255,11 @@ export const DOWNLOADS = [
   {
     group: 'Final Report',
     items: [
-      { title: 'Individual Reports', file: 'downloads/reports/individual-reports.pdf', available: false },
-      { title: 'Final Thesis', file: 'downloads/reports/final-thesis.pdf', available: false },
+      { title: 'AI-Driven Paddy Price Forecasting Thesis', file: 'downloads/reports/IT22102096_DRAFT.pdf', available: true },
+      { title: 'IOT Based Digital Dashboard for Paddy Farming Thesis', file: 'downloads/reports/IT22372444_DRAFT.pdf', available: true },
+      { title: 'AI-Powered Farmer-Miller Marketplace Thesis', file: 'downloads/reports/IT22147950_DRAFT .pdf', available: true },
+      { title: 'Secure, Disaster-Aware Warehouse Coordination Thesis', file: 'downloads/reports/IT22372444_DRAFT.pdf', available: true },
+      { title: 'Final Thesis', file: 'downloads/reports/R26-SE-007_DRAFT.pdf', available: true },
     ],
   },
   {
