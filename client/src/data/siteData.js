@@ -225,9 +225,9 @@ export const MILESTONES = [
   { date: '2026-05', label: '2026 May', title: 'Progress Presentation 1', text: 'First major milestone presentation with technical demonstrations.' },
   { date: '2026-09', label: '2026 Sep', title: 'Progress Presentation 2', text: 'Second milestone review with advanced feature implementations.' },
   { date: '2026-09', label: '2026 Sep', title: 'Research Paper Submission', text: 'Comprehensive research documentation and academic paper submission.' },
-  { date: '2026-10', label: '2026 Oct', title: 'Completion of Full System', text: 'Final system integration, testing, and optimization phase.' },
-  { date: '2026-10', label: '2026 Oct', title: 'Research Portfolio Website Launch', text: 'Launch of the research portfolio website showcasing project outcomes.' },
-  { date: '2026-10', label: '2026 Oct', title: 'Final Presentation', text: 'Final research presentation to stakeholders and academic committee.' },
+  { date: '2026-09', label: '2026 Oct', title: 'Completion of Full System', text: 'Final system integration, testing, and optimization phase.' },
+  { date: '2026-09', label: '2026 Oct', title: 'Research Portfolio Website Launch', text: 'Launch of the research portfolio website showcasing project outcomes.' },
+  { date: '2026-09', label: '2026 Oct', title: 'Final Presentation', text: 'Final research presentation to stakeholders and academic committee.' },
 ];
 
 /* ----------------------------- DOWNLOADS ----------------------------- */
@@ -295,4 +295,31 @@ export const CONTACT = {
   location: 'Sliit, Malabe, Sri Lanka.',
   mapLink: 'https://www.google.com/maps/search/?api=1&query=SLIIT+Malabe+Sri+Lanka',
   formEndpoint: '',
+};
+
+/* ------------------------ VISIT SLIDESHOW ------------------------ */
+// Photos live in  public/assets/images/  and are named 1, 2, 3 ... up to `count`.
+// The slideshow tries each extension below in order, so 1.jpeg, 1.jpg or 1.png all work.
+export const SLIDESHOW = {
+  title: 'Visit to the Paddy Marketing Board, Ampara',
+  text: "Moments from our research team's visit to the Paddy Marketing Board in Ampara.",
+  folder: 'assets/images',
+  count: 8,
+  extensions: ['jpeg', 'jpg', 'jpge', 'JPG', 'JPEG', 'png'],
+  // Optional captions, one per photo in order. Leave empty strings for no caption.
+  captions: ['', '', '', '', '', '', '', ''],
+};
+ 
+/* ---------------------------- APP DOWNLOAD ---------------------------- */
+// Paste your links below. A full link (https://...) opens in a new tab.
+// A file path such as 'downloads/app/digital-goviya.apk' (file placed in public/downloads/app/) downloads directly.
+// Leave url empty and the button shows "Coming soon".
+export const APP = {
+  title: 'Get the Digital Goviya app',
+  text:
+    'Follow paddy prices, manage your farm, trade with millers, and coordinate warehouses from one app. Available in English and Sinhala.',
+  highlights: ['Android and iOS', 'English and Sinhala', 'Warehouse, farming, marketplace, forecasting'],
+  version: 'v1.0',
+  android: { store: 'Google Play', prefix: 'Get it on', url: 'https://drive.google.com/drive/folders/1pING91kstjkBed8YHL8b56yHKhZ7ID7B?usp=sharing' },
+  ios: { store: 'App Store', prefix: 'Download on the', url: 'https://drive.google.com/drive/folders/1pING91kstjkBed8YHL8b56yHKhZ7ID7B?usp=sharing' },
 };

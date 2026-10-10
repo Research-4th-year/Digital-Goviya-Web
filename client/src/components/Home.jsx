@@ -2,6 +2,7 @@ import { SITE, COMPONENTS, APP_SCREENS, IMG } from '../data/siteData';
 import { COMPONENT_ICONS } from './icons';
 import { PaddyField, GrainDrift, WaveDivider } from './PaddyDecor';
 import SectionHeading from './SectionHeading';
+import ImageSlideshow from './Imageslideshow';
 
 function Hero() {
   return (
@@ -124,6 +125,7 @@ export default function Home() {
     <section id="home">
       <Hero />
       <Components />
+      <ImageSlideshow />
       <AppShowcase />
     </section>
   );
