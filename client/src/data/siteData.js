@@ -304,10 +304,10 @@ export const SLIDESHOW = {
   title: 'Visit to the Paddy Marketing Board, Ampara',
   text: "Moments from our research team's visit to the Paddy Marketing Board in Ampara.",
   folder: 'assets/images',
-  count: 8,
+  count: 13,
   extensions: ['jpeg', 'jpg', 'jpge', 'JPG', 'JPEG', 'png'],
   // Optional captions, one per photo in order. Leave empty strings for no caption.
-  captions: ['', '', '', '', '', '', '', ''],
+  captions: ['', '', '', '', '', '', '', '', '', '', '', '', ''],
 };
  
 /* ---------------------------- APP DOWNLOAD ---------------------------- */
