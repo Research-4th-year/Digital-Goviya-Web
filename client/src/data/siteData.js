@@ -286,7 +286,7 @@ export const TEAM = [
 /* ------------------------------ CONTACT ------------------------------ */
 export const CONTACT = {
   intro: "Have questions about our research? Want to collaborate? We'd love to hear from you.",
-  email: 'sasinphoto@gmail.com',
+  email: 'contact.digitalgoviya@gmail.com',
   phone: '+94 71 685 3350',
   phoneLink: '+94716853350',
   location: 'Sliit, Malabe, Sri Lanka.',
